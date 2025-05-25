@@ -285,7 +285,7 @@ Name=Daniel <Tabernero>
 En_Name=Daniel <Innkeeper>
 ShowName=1
 Desc=Ey, tu! Noto en tu mirada que necesitas algo fresco. ¡Has llegado al lugar correcto!
-en_Desc=Hey, you! I notice in your eyes that you need something fresh. You’ve come to the right place!
+en_Desc=Hey, you! I notice in your eyes that you need something fresh. You?ve come to the right place!
 Head=32
 Body=25
 Heading=3
@@ -307,7 +307,7 @@ Name=Makarena <Tabernera>
 En_Name=Makarena <Innkeeper>
 ShowName=1
 Desc=¡Hola! Noto frescura en tu mirada, algo me dice que eres nuevo por aquí. ¿Estás sediento? Cuéntame de tus aventuras, yo invito el primer trago!
-en_Desc=Hello! I notice freshness in your eyes, something tells me that you are new here. Are you thirsty? Tell me about your adventures, I’ll buy you the first drink!
+en_Desc=Hello! I notice freshness in your eyes, something tells me that you are new here. Are you thirsty? Tell me about your adventures, I?ll buy you the first drink!
 Head=53
 Body=287
 Heading=3
@@ -378,8 +378,8 @@ SoundClose=607
 [NPC9]
 Name=Igor <Provisiones>
 En_name=Igor <Provisions>
-Desc=¡Hola, joven aventurero! Puedes revisar mis productos siempre que quieras. Recuerda que si tienes hambre, te quedarás pronto sin energía… Por cierto, ¿ya has hablado con mi amigo Makrom?
-en_Desc=Hello, young adventurer! You can check my products whenever you want. Remember that if you are hungry, you will soon run out of energy… By the way, have you talked to my friend Makrom yet?
+Desc=¡Hola, joven aventurero! Puedes revisar mis productos siempre que quieras. Recuerda que si tienes hambre, te quedarás pronto sin energía? Por cierto, ¿ya has hablado con mi amigo Makrom?
+en_Desc=Hello, young adventurer! You can check my products whenever you want. Remember that if you are hungry, you will soon run out of energy? By the way, have you talked to my friend Makrom yet?
 Head=701
 ShowName=1
 Body=5
@@ -538,8 +538,8 @@ Obj2=197-1
 Name=Liliana <Alquimias de Principiante>
 En_Name=Liliana <Beginner Alchemies>
 ShowName=1
-Desc=¿Te has quedado sin pociones? Tengo algunas para ofrecerte, a un precio que te va a convenir… y mucho!
-en_Desc=Are you out of potions? I have some to offer you, at a price that will suit you… a lot!
+Desc=¿Te has quedado sin pociones? Tengo algunas para ofrecerte, a un precio que te va a convenir? y mucho!
+en_Desc=Are you out of potions? I have some to offer you, at a price that will suit you? a lot!
 Head=0
 Body=4107
 Heading=3
@@ -2342,6 +2342,25 @@ MagicDef=15
 
 
 
+[NPC305]
+Name=Guardia de la arena
+En_Name=Arena's Guard
+ShowName=1
+NpcType=24
+Desc=??Demuestra tu valor en combate! El ingreso a la arena cuesta 5000 monedas de oro. Escribe /ARENA para participar.
+Head=10
+Body=32
+Heading=3
+Movement=1
+Attackable=0
+Comercia=0
+Hostile=0
+NROITEMS=0
+Minimap=1
+en_desc=Prove your might in battle! Entry to the arena costs 5000 gold coins. Type /ARENA to join the fight.
+NPCLVL=40
+MagicResistance=100
+MagicDef=15
 
 '--------------> + VENDEDORES <--------------
 
@@ -6677,7 +6696,7 @@ NPCLVL=17
 
 [NPC648]
 Name=Reydmon
-Desc=¿Has oído las noticias? Los representantes de todas las razas y los reyes de ambas facciones se han reunido en el Mesón Hostigado. Esto nunca había pasado en la historia… Están reclutando soldados para una gran batalla según escuche. ¡No pierdas tiempo y ve!
+Desc=¿Has oído las noticias? Los representantes de todas las razas y los reyes de ambas facciones se han reunido en el Mesón Hostigado. Esto nunca había pasado en la historia? Están reclutando soldados para una gran batalla según escuche. ¡No pierdas tiempo y ve!
 Head=310
 Body=4912
 Arma=3
