@@ -2340,7 +2340,28 @@ NPCLVL=40
 MagicResistance=100
 MagicDef=15
 
+'--------------> Guardia de la arena <--------------
 
+[NPC305]
+Name=Guardia de la arena
+En_Name=Arena's Guard
+ShowName=1
+NpcType=24
+Desc=??Demuestra tu valor en combate! El ingreso a la arena cuesta 5000 monedas de oro. Escribe /ARENA para participar.
+Head=10
+Body=32
+Heading=3
+Movement=1
+Attackable=0
+Comercia=0
+Hostile=0
+NROITEMS=0
+Minimap=1
+en_desc=Prove your might in battle! Entry to the arena costs 5000 gold coins. Type /ARENA to join the fight.
+NPCLVL=40
+MagicResistance=100
+MagicDef=15
+ArenaPrice=100
 
 
 '--------------> + VENDEDORES <--------------
