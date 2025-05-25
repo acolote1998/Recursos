@@ -2361,6 +2361,7 @@ en_desc=Prove your might in battle! Entry to the arena costs 5000 gold coins. Ty
 NPCLVL=40
 MagicResistance=100
 MagicDef=15
+ArenaPrice=100
 
 '--------------> + VENDEDORES <--------------
 
