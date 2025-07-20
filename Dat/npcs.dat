@@ -2031,8 +2031,62 @@ Sp2=9
 RangoSpell=6
 NoWiki=1
 
+[NPC262]
+Name=Vendedor Items MAO
+En_Name=Item Seller MAO
+Desc=VENDA SUS ITEMS VENDA VENDA
+ShowName=1
+NpcType=25
+Head=4
+Body=147
+Heading=3
+Movement=2
+Attackable=1
+Comercia=0
+Hostile=1
+MinHP=10000
+MaxHP=10000
+MaxHIT=100
+MinHIT=100
+PosOrig=1
+DEF=0
+Alineacion=1
+Faccion=3
+ReSpawn=0
+NROITEMS=0
+PoderAtaque=1500
+PoderEvasion=300
+LanzaSpells=1
+Sp1=53
+RangoSpell=6
+ELV=50
+Humanoide=1
+NoWiki=1
+en_desc=VENDA SUS ITEMS VENDA VENDA
+NPCLVL=39
+MagicResistance=97
+MagicDef=15
 
-[NPC267]'Libre
+
+[NPC267]
+Name=Mao Item Seller
+En_Name=Mao Item Seller
+ShowName=1
+NpcType=25
+Desc=VENDO VENDO VENDO
+Head=9
+Body=37
+Heading=3
+Movement=1
+Attackable=0
+Comercia=0
+Hostile=0
+NROITEMS=0
+Minimap=1
+en_desc=lets sell items bro
+NPCLVL=40
+MagicResistance=100
+MagicDef=15
 
 [NPC268]'Libre
 
@@ -2241,11 +2295,11 @@ MagicDef=15
 
 '--------------> Apuestas <--------------
 [NPC301]
-Name=Apostador
-En_Name=Gambler
+Name=Mao Item Seller
+En_Name=Mao Item Seller
 ShowName=1
-NpcType=10
-Desc=Si deseas apostar, escribe /APOSTAR e ingresa la cantidad con la que jugarás.
+NpcType=25
+Desc=VENDER
 Head=9
 Body=37
 Heading=3
@@ -2255,7 +2309,7 @@ Comercia=0
 Hostile=0
 NROITEMS=0
 Minimap=1
-en_desc=If you want to bet, type /APOSTAR and enter the amount you will play with.
+en_desc=lets sell items bro
 NPCLVL=40
 MagicResistance=100
 MagicDef=15
